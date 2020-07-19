@@ -1,0 +1,32 @@
+{
+    "name": "@sandrocaseiro.dev/insomnia-plugin-regex-template",
+    "version": "1.0.1",
+    "author": "Sandro Caseiro",
+    "description": "Regex template tag Insomnia plugin",
+    "license": "MIT",
+    "homepage": "https://github.com/sandrocaseiro/insomnia-plugin-regex-template#readme",
+    "repository": {
+        "type": "git",
+        "url": "git+https://github.com/sandrocaseiro/insomnia-plugin-regex-template.git"
+    },
+    "bugs": {
+        "url": "https://github.com/sandrocaseiro/insomnia-plugin-regex-template/issues"
+    },
+    "main": "index.js",
+    "scripts": {
+        "test": "echo \"Error: no test specified\" && exit 1"
+    },
+    "insomnia": {
+        "name": "regex-template",
+        "displayName": "Regex Plugin",
+        "description": "Regex template tag",
+        "publisher": {
+            "name": "Sandro Caseiro"
+        }
+    },
+    "dependencies": {
+        "iconv-lite": "^0.6.2",
+        "insomnia-xpath": "^2.2.10",
+        "jsonpath": "^1.0.2"
+    }
+}
