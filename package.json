@@ -1,6 +1,6 @@
 {
     "name": "@sandrocaseiro.dev/insomnia-plugin-regex-template",
-    "version": "1.0.1",
+    "version": "1.0.2",
     "author": "Sandro Caseiro",
     "description": "Regex template tag Insomnia plugin",
     "license": "MIT",
@@ -12,6 +12,15 @@
     "bugs": {
         "url": "https://github.com/sandrocaseiro/insomnia-plugin-regex-template/issues"
     },
+    "keywords": [
+        "insomnia",
+        "insomnia-plugin",
+        "plugin",
+        "regex",
+        "template",
+        "tag",
+        "template-tag"
+    ],
     "main": "index.js",
     "scripts": {
         "test": "echo \"Error: no test specified\" && exit 1"
